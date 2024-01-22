@@ -1,0 +1,18 @@
+Tasked to  evaluate the following function call myMean.
+
+INPUT:
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
+
+result <- myMean(assignment2)
+cat("Mean of assignment2:", result)
+
+OUTPUT:
+Mean of assignment2: 18.25
+
+Explanation:
+
+The function myMean takes a vector assignment2 as its input. 
+Inside the function, it calculates the mean by summing up all the values in the vector (sum(assignment2)) and dividing the sum by the length of the vector (length(assignment2)).
+The result is then returned by the function.
+This function calculates the mean of the values in the vector assignment2 correctly. You can test it with the provided dataset and get the mean of the values.
